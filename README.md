@@ -88,4 +88,19 @@ Then run:
 python run_batch.py
 ```
 
+### Visualize results using HTML4Vision
+
+To visualize all the batch results, we utilize the HTML4Vision library, which can be installed with:
+
+```
+pip install html4vision
+```
+
+Then, run:
+
+```
+python visualization.py
+```
+
+This will generate an html file `index.html` in the same directory that contains all the results after material transfer.
 
