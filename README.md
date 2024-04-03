@@ -29,7 +29,13 @@ cd zest_code
 git clone https://github.com/tencent-ailab/IP-Adapter.git
 mv IP-Adapter/ip_adapter ip_adapter
 rm -r IP-Adapter/
+```
 
+## Download Models
+
+You can download models from [here](https://huggingface.co/h94/IP-Adapter) and store it by running:
+
+```
 # download the models
 cd IP-Adapter
 git lfs install
@@ -37,10 +43,6 @@ git clone https://huggingface.co/h94/IP-Adapter
 mv IP-Adapter/models models
 mv IP-Adapter/sdxl_models sdxl_models
 ```
-
-## Download Models
-
-You can download models from [here](https://huggingface.co/h94/IP-Adapter). 
 
 ## Demo on Single Image
 
