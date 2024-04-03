@@ -40,11 +40,7 @@ mv IP-Adapter/sdxl_models sdxl_models
 
 ## Download Models
 
-You can download models from [here](https://huggingface.co/h94/IP-Adapter). To run the demo, you should also download the following models:
-- [runwayml/stable-diffusion-v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-- [stabilityai/sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse)
-- [SG161222/Realistic_Vision_V4.0_noVAE](https://huggingface.co/SG161222/Realistic_Vision_V4.0_noVAE)
-- [ControlNet models](https://huggingface.co/lllyasviel)
+You can download models from [here](https://huggingface.co/h94/IP-Adapter). 
 
 ## Demo on Single Image
 
