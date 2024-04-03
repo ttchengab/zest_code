@@ -1,4 +1,4 @@
-# ___***ZeST: Zero-Shot Material Transfer from a Single Image***___
+#  ZeST: Zero-Shot Material Transfer from a Single Image
 
 <a href='https://ttchengab.github.io/zest/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
 <a href=''><img src='https://img.shields.io/badge/Paper-blue'></a> 
