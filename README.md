@@ -44,11 +44,42 @@ You can download models from [here](https://huggingface.co/h94/IP-Adapter). To r
 
 After installation and downloading the models, you can then use `demo.ipynb` to perform material transfer from a single image and material exemplar
 
+#Try with your own material exemplar
+
+Simply place the image into `demo_assets/material_exemplars` and change `texture` variable in `demo.ipynb` to the name of the image.
+
+# Try with your own input image
+
+To use your own input images, we would need to borrow depth predictions using DPT.
+
+Install DPT and its dependencies with:
+
+```
+git clone https://github.com/isl-org/DPT.git
+pip install -r DPT/requirements.txt
+```
+
+Place your images inside `DPT/input/` and obtain the results in `DPT/output/` by running:
+
+```
+python DPT/run_monodepth.py
+```
+
+Afterwards, place all your files from the `DPT/input/` and `DPT/output/` into `demo_assets/input_imgs` and `demo_assets/depths`, respectively. Change `obj` variable in `demo.ipynb` to the name of the input image.
+
 ## Inferencing on batch of images
 To cross-inference on a set of input images and material exemplars, first create the following directory: 
 
 ```
 mkdir demo_assets/output_images
+```
+
+Follow the above steps to obtain and put all the material exemplars and corresponding input images/depths into their directories.
+
+Then run:
+
+```
+python run_batch.py
 ```
 
 
