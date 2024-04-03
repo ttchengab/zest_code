@@ -1,6 +1,8 @@
 # ___***ZeST: Zero-Shot Material Transfer from a Single Image***___
 This is the official implementation of ZeST: Zero-Shot Material Transfer from a Single Image.
 
+![arch](fig/method.jpg)
+
 ## Installation
 This work is built from the IP-Adaptor. Please follow the following installation instructions to get IP-Adapter for Stable Diffusion XL ready.
 
