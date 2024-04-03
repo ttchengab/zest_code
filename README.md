@@ -44,11 +44,11 @@ You can download models from [here](https://huggingface.co/h94/IP-Adapter). To r
 
 After installation and downloading the models, you can then use `demo.ipynb` to perform material transfer from a single image and material exemplar
 
-#Try with your own material exemplar
+### Try with your own material exemplar
 
 Simply place the image into `demo_assets/material_exemplars` and change `texture` variable in `demo.ipynb` to the name of the image.
 
-# Try with your own input image
+### Try with your own input image
 
 To use your own input images, we would need to borrow depth predictions using DPT.
 
