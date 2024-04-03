@@ -42,7 +42,7 @@ You can download models from [here](https://huggingface.co/h94/IP-Adapter). To r
 
 ## Demo on Single Image
 
-After installation and downloading the models, you can then use `demo.ipynb` to perform material transfer from a single image and material exemplar
+After installation and downloading the models, you can then use `demo.ipynb` to perform material transfer from a single image and material exemplar. We provide one image of each for demonstration.
 
 ### Try with your own material exemplar
 
