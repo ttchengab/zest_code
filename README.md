@@ -19,7 +19,7 @@ pip install diffusers==0.22.1
 Then clone this repo:
 
 ```
-https://github.com/ttchengab/zest_code.git
+git clone https://github.com/ttchengab/zest_code.git
 ```
 
 Then install IP Adaptor and download the needed models:
