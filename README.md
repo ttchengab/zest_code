@@ -8,7 +8,7 @@ This is the official implementation of ZeST: Zero-Shot Material Transfer from a 
 ![arch](fig/method.jpg)
 
 ## Installation
-This work is built from the IP-Adaptor. Please follow the following installation instructions to get IP-Adapter for Stable Diffusion XL ready.
+This work is built from the [IP-Adapter](https://ip-adapter.github.io/). Please follow the following instructions to get IP-Adapter for Stable Diffusion XL ready.
 
 We begin by installing the diffusers library:
 
@@ -46,7 +46,7 @@ mv IP-Adapter/sdxl_models sdxl_models
 
 ## Demo on Single Image
 
-After installation and downloading the models, you can then use `demo.ipynb` to perform material transfer from a single image and material exemplar. We provide one image of each for demonstration.
+After installation and downloading the models, you can use `demo.ipynb` to perform material transfer from a single image and material exemplar. We provide one image of each for demonstration.
 
 ### Try with your own material exemplar
 
@@ -78,7 +78,7 @@ To cross-inference on a set of input images and material exemplars, first create
 mkdir demo_assets/output_images
 ```
 
-Follow the above steps to obtain and put all the material exemplars and corresponding input images/depths into their directories.
+Follow the above steps to obtain and place all the material exemplars and corresponding input images/depths into their directories.
 
 Then run:
 
