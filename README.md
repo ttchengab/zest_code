@@ -71,6 +71,15 @@ python DPT/run_monodepth.py
 
 Afterwards, place all your files from the `DPT/input/` and `DPT/output/` into `demo_assets/input_imgs` and `demo_assets/depths`, respectively. Change `obj` variable in `demo.ipynb` to the name of the input image.
 
+## Run Gradio Demo
+To run Gradio demo:
+
+```
+python demo_gradio.py
+```
+
+It should provide the following interface for you to try. Make sure you install DPT following the section above.
+
 ## Inferencing on batch of images
 To cross-inference on a set of input images and material exemplars, first create the following directory: 
 
