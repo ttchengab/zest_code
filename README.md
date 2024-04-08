@@ -80,6 +80,8 @@ python demo_gradio.py
 
 It should provide the following interface for you to try. Make sure you install DPT following the section above.
 
+![arch](fig/gradio_demo.png)
+
 ## Inferencing on batch of images
 To cross-inference on a set of input images and material exemplars, first create the following directory: 
 
