@@ -113,3 +113,13 @@ python visualization.py
 
 This will generate an html file `index.html` in the same directory that contains all the results after material transfer.
 
+## Citation
+If you find ZeST helpful in your research/applications, please cite using this BibTeX:
+```bibtex
+@article{cheng2024zest,
+  title={ZeST: Zero-Shot Material Transfer from a Single Image},
+  author={Cheng, Ta-Ying and Sharma, Prafull and Markham, Andrew and Trigoni, Niki and Jampani, Varun},
+  booktitle={arXiv preprint arXiv:2404.06425},
+  year={2024}
+}
+```
