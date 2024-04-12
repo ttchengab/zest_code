@@ -78,6 +78,8 @@ To run Gradio demo:
 python demo_gradio.py
 ```
 
+Note that both images should be size of 1024x1024 to obtain best results.
+
 It should provide the following interface for you to try. Make sure you install DPT following the section above.
 
 ![arch](fig/gradio_demo.png)
