@@ -1,6 +1,6 @@
 diffusers
 rembg
-einops==0.7.0,
+einops==0.7.0
 transformers==4.27.4
 opencv-python==4.7.0.68
 gradio==4.15.0
