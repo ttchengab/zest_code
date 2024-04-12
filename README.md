@@ -27,7 +27,6 @@ pip install -r requirements.txt
 Then install IP Adaptor and download the needed models:
 ```
 # install ip-adapter
-
 git clone https://github.com/tencent-ailab/IP-Adapter.git
 mv IP-Adapter/ip_adapter ip_adapter
 rm -r IP-Adapter/
