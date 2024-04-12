@@ -10,22 +10,25 @@ This is the official implementation of ZeST: Zero-Shot Material Transfer from a 
 ## Installation
 This work is built from the [IP-Adapter](https://ip-adapter.github.io/). Please follow the following instructions to get IP-Adapter for Stable Diffusion XL ready.
 
-We begin by installing the latest the libraries with:
 
-```
-pip install -r requirements.txt
-```
-
-Then clone this repo:
+We will begin by cloning this repo:
 
 ```
 git clone https://github.com/ttchengab/zest_code.git
+
+```
+
+Then, install the latest the libraries with:
+
+```
+cd zest_code
+pip install -r requirements.txt
 ```
 
 Then install IP Adaptor and download the needed models:
 ```
 # install ip-adapter
-cd zest_code
+
 git clone https://github.com/tencent-ailab/IP-Adapter.git
 mv IP-Adapter/ip_adapter ip_adapter
 rm -r IP-Adapter/
