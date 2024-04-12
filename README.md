@@ -37,7 +37,6 @@ You can download models from [here](https://huggingface.co/h94/IP-Adapter) and s
 
 ```
 # download the models
-cd IP-Adapter
 git lfs install
 git clone https://huggingface.co/h94/IP-Adapter
 mv IP-Adapter/models models
