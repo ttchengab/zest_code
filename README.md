@@ -55,11 +55,10 @@ Simply place the image into `demo_assets/material_exemplars` and change `texture
 
 To use your own input images, we would need to borrow depth predictions using DPT.
 
-Install DPT and its dependencies with:
+Install DPT:
 
 ```
 git clone https://github.com/isl-org/DPT.git
-pip install -r DPT/requirements.txt
 ```
 
 Place your images inside `DPT/input/` and obtain the results in `DPT/output/` by running:
