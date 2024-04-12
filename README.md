@@ -15,7 +15,6 @@ We will begin by cloning this repo:
 
 ```
 git clone https://github.com/ttchengab/zest_code.git
-
 ```
 
 Then, install the latest the libraries with:
