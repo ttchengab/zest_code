@@ -61,6 +61,8 @@ Install DPT:
 git clone https://github.com/isl-org/DPT.git
 ```
 
+Then, download their weights [here](https://github.com/intel-isl/DPT/releases/download/1_0/dpt_hybrid-midas-501f0c75.pt) and put it into the `DPT/weights` folder.
+
 Place your images inside `DPT/input/` and obtain the results in `DPT/output/` by running:
 
 ```
