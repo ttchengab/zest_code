@@ -49,7 +49,7 @@ ip_model = IPAdapterXL(pipe, image_encoder_path, ip_ckpt, device)
 """
 Get Depth Model Ready
 """
-model_path = "DPT/dpt_weights/dpt_hybrid-midas-501f0c75.pt"
+model_path = "DPT/weights/dpt_hybrid-midas-501f0c75.pt"
 net_w = net_h = 384
 model = DPTDepthModel(
     path=model_path,
