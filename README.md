@@ -2,8 +2,11 @@
 
 <a href='https://ttchengab.github.io/zest/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
 <a href='https://arxiv.org/abs/2404.06425'><img src='https://img.shields.io/badge/Paper-blue'></a> 
+<a href='https://huggingface.co/spaces/fffiloni/ZeST'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
 
 This is the official implementation of ZeST: Zero-Shot Material Transfer from a Single Image. Given an input image (e.g., a photo of an apple) and a single material exemplar image (e.g., a golden bowl), ZeST can transfer the gold material from the exemplar onto the apple with accurate lighting cues while making everything else consistent.
+
+Thanks to [Sylvain Filoni](https://huggingface.co/fffiloni), [demo](https://huggingface.co/spaces/fffiloni/ZeST) is also available on HuggingFace! 
 
 ![arch](fig/method.jpg)
 
